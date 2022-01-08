@@ -1,0 +1,1412 @@
+/* header nav ul li a:link,
+header nav ul li a:visited {
+  padding-bottom: 3px;
+
+
+  border: transparent;
+  transition: border-bottom 0.2s, color 0.2s;
+
+}
+
+
+header nav ul li a:active,
+header nav ul li a:hover {
+  border-bottom: 3px solid blue;
+  color: blue !important;
+
+} */
+
+
+
+
+/* header nav ul {
+  margin-left: 60%;
+}
+
+header nav {
+  width: 100% !important;
+} */
+
+
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important
+}
+
+
+
+/* LOGO MAIN PAGE */
+header nav .navbar-brand {
+  font-size: 1.6rem;
+  font-weight: 500;
+
+}
+
+header nav .navbar-brand:active,
+header nav .navbar-brand:hover {
+  color: blue !important;
+}
+
+
+
+header nav ul li a {
+  font-weight: 500;
+  font-size: large;
+}
+
+header nav ul li a:link,
+header nav ul li a:visited {
+  border-bottom: 1px solid transparent orangered;
+  color: #000;
+  transition: border-bottom 0.1s, color 0.1s;
+}
+
+header ul li a:active,
+header nav ul li a:hover {
+  padding-bottom: 3px;
+  color: orangered !important;
+  border-bottom: 3px solid orangered;
+}
+
+
+header ul .ss:active,
+header ul .ss:hover {
+  border-bottom: none !important;
+}
+
+header ul .ll:active,
+header ul .ll:hover {
+  border-bottom: none !important;
+  background-color: brown !important;
+  color: white;
+}
+
+
+
+.search {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.search [type=search] {
+  font-size: 14px;
+}
+
+.home {
+  color: #fff;
+  background-image: linear-gradient(rgba(8, 8, 8, 0.6), rgba(8, 8, 8, 0.6)), url('../images/home.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* ---  FORM CSS K LEFT PEY   ---  */
+
+.grand_parent {
+  width: 100%;
+  /* margin-left: 14%; */
+  /* margin-right: 14%; */
+  margin-top: 100px;
+}
+
+
+
+/* ---  FORM CSS   ---  */
+
+.form-container {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.form h1 {
+  color: brown;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+form div {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+form div:last-child {
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+form div input[type=submit] {
+  padding: 10px 30px;
+  border-radius: 10px;
+
+}
+
+.user-panel input[type=submit],
+input[type=button] {
+  padding: 10px 30px;
+  border-radius: 5px;
+
+}
+
+form div:last-child a {
+  text-decoration: none;
+}
+
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=email],
+input[type=button] {
+  padding: 15px;
+}
+
+
+
+/* ---  POPULAR COURSES   ---  */
+
+.pics-container {
+  width: 80%;
+  margin-top: 130px;
+  margin-bottom: 120px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.course-pic {
+  width: 100%;
+  margin: 0 0 10px 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.course-pic img {
+  opacity: 0.7;
+  width: 100%;
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.course-pic img:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+
+/* ---  AVAILABLE COURSES   ---  */
+
+
+.available-courses {
+  background-color: rgb(240, 239, 239);
+}
+
+.available-courses h2 {
+  padding-top: 100px !important;
+}
+
+.courses {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.courses a {
+  text-decoration: none;
+
+}
+
+.co {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+
+
+/* ---  FOOTER   ---  */
+
+.page-footer {
+  background-color: #002147 !important;
+  color: rgb(209, 209, 209);
+}
+
+.page-footer ul li a {
+  color: rgb(209, 209, 209);
+
+}
+
+.page-footer ul li a:hover {
+  color: orange
+}
+
+.footer-copyright {
+  background-color: #011429 !important;
+
+}
+
+
+.footer {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.footer-middle a {
+  text-decoration: none;
+}
+
+.footer-last li {
+  float: left;
+}
+
+.footer-last a {
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.footer .col-md-3:last-child a {
+  font-size: 160%;
+}
+
+
+/* FOR WORD COLOR IN ALL */
+.word-color {
+  color: darkorange;
+}
+
+
+
+/* ---  COMMENTS   ---  */
+
+.comments {
+  background-color: rgb(204, 63, 63);
+}
+
+.comment-container {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 100px;
+}
+
+.abc {
+  width: 50%;
+  float: left;
+}
+
+.hi {
+  float: left;
+}
+
+
+main {
+  overflow: hidden;
+  color: #fff;
+  display: grid;
+  grid-template-rows: 60px 30px;
+  grid-template-columns: 150px;
+  float: left;
+}
+
+main span {
+  /* display: flex; */
+  align-items: center;
+  font-size: 140%;
+  font-weight: 500;
+}
+
+
+
+
+/* ---  SINGIN MAIN PAGE   ---  */
+
+.signin {
+  background-color: wheat;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.signin form h4 {
+  color: #000;
+}
+
+
+.left {
+  padding-top: 150px;
+  padding-bottom: 120px;
+}
+
+.right {
+  padding-top: 150px;
+  padding-bottom: 120px;
+}
+
+.signin .col-md-6:first-child {
+  background-color: #1f4363;
+}
+
+.signin .col-md-6:last-child {
+  background-color: #d1d3d4;
+}
+
+.signin h1 {
+  font-size: 300%;
+  font-weight: 700;
+}
+
+.form-signin {
+  margin-top: 0px;
+}
+
+.signin span {
+  display: block;
+}
+
+
+.container-top-bar {
+  width: 82%;
+  margin-left: 9%;
+  margin-right: 9%;
+  /* display: inline-block; */
+}
+
+.container-top-bar .dog {
+  float: right;
+}
+
+.login-bar {
+  list-style: none;
+  float: right;
+}
+
+.login-bar li {
+  float: left;
+  margin-right: 2px;
+  margin-top: 1px;
+}
+
+.container-top-bar h5 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.container-top-bar li {
+  float: left;
+  list-style: none;
+}
+
+
+.below-nav {
+  margin-top: 75px;
+  background-color: #002147 !important;
+}
+
+.login-bar li input[type=button] {
+  border-radius: 5px;
+
+}
+
+
+
+.signin form div input[type=text],
+.signin form div input[type=email],
+.signin form div input[type=button],
+.signin form div input[type=password] {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+input[type=submit] {
+  background-color: #2f4f73 !important;
+  font-weight: bold;
+}
+
+input[type=button] {
+  /* background-color: #2f4f73 !important; */
+  font-weight: bold;
+}
+
+
+.login-btn {
+  background-color: #2f4f73 !important;
+}
+
+.signin form div input[type=submit] {
+  width: 70%;
+}
+
+
+.signin form div input[type=button] {
+  width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+.aaaa h6 {
+  font-style: italic;
+}
+
+
+/* ---  ABOUT US    ---  */
+
+.aboutus-container {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+/* ---  ALL COURSES   ---  */
+
+.co {
+  transition: transform 0.5s ease;
+}
+
+.co:hover {
+  transform: scale(1.05);
+}
+
+
+/* ---  VERIFICATION   ---  */
+
+.verification-container {
+  border: 1px solid rgb(231, 231, 231);
+  margin: 10px 0;
+  width: 76%;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.ban1 h2 {
+  background-color: #043770;
+}
+
+.ban1 .card-body {
+  /* background-color: #4dc3b7; */
+  /* background-color: #7292a5;
+   */
+  background-color: #d1d3d4;
+}
+
+.ban1 {
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  /* background-color: #041b36 !important; */
+  background-color: #002147 !important;
+
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.verification .search-btn {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+
+.verification .search-box {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.verification .card-body p {
+  font-size: 110%;
+  font-weight: 500;
+}
+
+
+/* ---  CONTACT US   ---  */
+
+.txt-container {
+  width: 72%;
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+
+
+
+iframe {
+  width: 100%;
+  height: 550px;
+}
+
+.go {
+  position: relative;
+}
+
+.contactus-map form {
+  width: 100%;
+}
+
+
+.king {
+  width: 50%;
+  position: absolute;
+  top: 40px;
+  left: 10%;
+  border: 2px solid black;
+  border-radius: 3%;
+  background-color: blanchedalmond;
+}
+
+
+
+/* ---  DASH-BOARD  BUTTON HOVER SETTING   ---  */
+
+
+.user-panel input[type=submit] {
+  background-color: #2f4f73;
+}
+
+.user-panel input[type=submit]:hover {
+  color: white;
+  background-color: rgb(66, 112, 143);
+
+}
+
+.user-panel input[type=button] {
+  background-color: #26a69a;
+}
+
+.user-panel input[type=button]:hover {
+  /* color: black; */
+  background-color: #177e73;
+
+
+
+}
+
+/* ---  DASH-BOARD   ---  */
+
+
+.dash-cover img {
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+}
+
+.dashboard-menu {
+  background-color: #2f4f73;
+  position: relative;
+  padding-bottom: 0;
+}
+
+.dashboard-menu ul {
+  display: table;
+  margin-left: 25px;
+}
+
+.dashboard-menu ul li {
+  display: inline-block;
+  padding: 17px 14px;
+}
+
+
+
+
+.dashboard-menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.dashboard-menu li {
+  transition: background-color 0.5s;
+  display: inline-block;
+}
+
+
+.dashboard-menu li:hover {
+  /* text-decoration: none; */
+  /* color: #fff; */
+  background-color: rgb(66, 112, 143);
+}
+
+/*
+.dashboard-menu .col-md-9 li {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+  margin-right: 10px;
+}
+
+.dashboard-menu .col-md-9 li:last-child {
+  margin-right: 0;
+}
+
+.dashboard-menu .col-md-9 li:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 4px;
+  background: transparent;
+  transition: width .8s ease, background-color .8s ease;
+}
+
+.dashboard-menu .col-md-9 li:hover:after {
+  width: 100%;
+  background: orangered;
+
+} */
+
+
+
+
+
+.dashboard-form {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30px;
+  border: 1px solid rgb(223, 223, 223);
+  padding-top: 0px;
+  background-color: white;
+  box-shadow: -1px 3px 7px 7px rgb(223, 223, 223);
+}
+
+.dashboard-form ul {
+  border: 1px solid black;
+}
+
+
+.img-container,
+.logo-text {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.table-container {
+  border: 1px solid rgb(223, 223, 223);
+  box-shadow: 0px 1px 2px 2px rgb(223, 223, 223);
+
+}
+
+.table-container {
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.table-container tr {
+  width: 100%;
+}
+
+.table-container tr td {
+  padding: 14px 14px 14px 0;
+}
+
+.table-container tr td:first-child {
+  width: 20%;
+}
+
+.table-container .how .w {
+  width: 5%;
+}
+
+
+.table-container .how {
+  padding-left: 15px;
+}
+
+
+
+/* ---  DASH-BOARD-EDIT   ---  */
+
+.how td input {
+  width: 100%;
+}
+
+.edit-profile input[type=submit] {
+  width: 30%;
+}
+
+.user-panel input[type=text] {
+  border: 1px solid rgb(228, 226, 226);
+}
+
+.user-panel table select {
+  border: 1px solid rgb(228, 226, 226);
+}
+
+
+/* ---  DASH-BOARD-COMPLETED   ---  */
+
+
+.table-container .how {
+  width: 98%;
+}
+
+/* ---  DASH-BOARD-NEW COURSE   ---  */
+
+.new-th {
+  /* border: 1px solid black; */
+  padding-left: 10px;
+}
+
+.table-container form thead tr {
+  width: 40%;
+}
+
+
+/* ---  DASH-BOARD PLAY-LESSON   ---  */
+
+.courses1 {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #fff;
+}
+
+.ten {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.available-courses .courses1 .card-img-top-a {
+  height: 70px;
+}
+
+.less {
+  width: 90px;
+  height: 120px;
+  float: left;
+}
+
+.good {
+  height: 120px;
+  padding: 20px;
+  padding-left: 110px;
+}
+
+
+
+
+/* ---  DASH-BOARD COURSE VIDEO   ---  */
+
+
+.video-container {
+  border: 1px solid rgb(231, 231, 231);
+  margin: 10px 0;
+  width: 76%;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+
+.ban3 img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.ban3 h5 {
+  border-bottom: 1px solid black;
+  display: inline-block;
+}
+
+.video-container .ban2 {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rosybrown;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.video-container .ban3 {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* background-color: rosybrown; */
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.video-quiz-btn {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+
+/* ---  DASH-BOARD QUIZ   ---  */
+
+.quiz-text {
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.quiz .ban2 {
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: rosybrown;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.quiz .ban2 .quiz-text p {
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.ban2 {
+  background-color: #002147 !important;
+}
+
+.abcc {
+  background-color: #043770 !important;
+}
+
+/* ---  DASH-BOARD QUIZ-START   ---  */
+
+
+.quiz-question {
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.quiz .ban2 span {
+  border: 1px solid black;
+  border-radius: 50%;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  background-color: brown;
+}
+
+.quiz .ban2 .quest {
+  border-bottom: 1px solid brown;
+}
+
+.quiz .ban2 input[type=radio] {
+  height: 22px;
+  width: 1.5em;
+}
+
+.quest .col-md-10 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+
+
+
+
+/* ---  POPULAR COURSES-COURSE   ---  */
+
+
+.course-btns-container {
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.pop-course-txt li {
+  float: left;
+}
+
+.div1 {
+  height: 400px;
+  overflow: auto;
+}
+
+
+/* ---  DASH-BOARD SELECTED COURSES   ---  */
+
+.how .selected-course-table {
+  width: 100%;
+}
+
+.goo {
+  border: 1px solid rgb(236, 236, 236);
+  padding: 5px 15px;
+}
+
+.goo input[type=button] {
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+/* @media screen and (max-width: 992px) {
+
+  /* .dashboard-menu ul li {
+    width: 0%;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  .dashboard-menu ul li a {
+    padding: 0px 20px;
+    line-height: 53px;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #3a5d84;
+    width: 98%;
+    display: block;
+    margin: 5px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+} */
+
+/* FOR COMPLETED COURSE TABLE HEADING */
+
+.how thead td {
+  font-weight: bold;
+}
+
+.dashboard-form .table-container h3:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(230, 221, 221);
+  margin-top: 10px;
+}
+
+
+/* FOR DASHBOARD */
+
+.r1 .col-md-6 {
+  border: 1px solid white;
+  color: white;
+}
+
+
+
+/* TEACHER PANEL */
+
+/* MAIN PAGE */
+
+.main-page {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.teacher-course {
+  /* border: 1px solid black; */
+
+  /* position: relative; */
+  /* width: 90%; */
+}
+
+.teacher-course .col-md-10 {
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+
+}
+
+.good2:hover {
+  opacity: 0;
+}
+
+.edit-hover {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+
+.edit-hover:hover .d2 {
+  opacity: 1;
+}
+
+.d2 {
+  visibility: hidden;
+}
+
+.d1:hover .d2 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.good2 {
+  padding: 10px;
+  padding-left: 100px;
+}
+
+.good2 p {
+  font-weight: bolder;
+}
+
+.good2 p:last-child span {
+  font-weight: lighter;
+  padding: 0;
+}
+
+
+/* STEP1 PAGE */
+
+.course-p1-s1 {
+  width: 14%;
+  margin-left: 43%;
+  margin-right: 43%;
+  font-size: 90%;
+  margin-bottom: 90px;
+  /* border: 4px solid black; */
+}
+
+.course-p1-s1:hover {
+  background-color: #d1d3d4;
+}
+
+
+/* STEP2 PAGE */
+
+.course-p2 {
+  margin-top: 100px;
+}
+
+.course-p2 div:last-child {
+  margin-bottom: 160px;
+}
+
+/* INENDED LEARNERS PAGE */
+
+.intended-learners {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 1px solid rgb(184, 180, 180);
+}
+
+.dog {
+  border-bottom: 1px solid rgb(165, 159, 159);
+}
+
+.intend-lrn-search {
+  width: 70%;
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+/* COURSE LANDING PAGE */
+
+.course-landing-imgs {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+/* PROFILE PAGE */
+
+
+.profile-teacher {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.profile-teacher h2 {
+  border-bottom: 1px solid black;
+}
+
+
+/* CERTIFICATE PAGE */
+.certificate {
+  margin-top: 100px;
+}
+
+
+.user-name {
+  border-bottom: 3px solid black;
+}
+
+.certificate-lg-paragraph {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* FOR MEDIA QUERIES OVERALL*/
+
+@media only screen and (max-width: 991px) {
+  .dashboard-menu .col-md-9 li {
+    /* font: 0.7rem !important; */
+    width: 48%;
+    margin-right: 1%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 1px solid rgb(66, 112, 143);
+
+  }
+
+  .dashboard-menu ul {
+    margin-left: 0;
+  }
+
+
+  .dashboard-menu .col-md-9 li a {
+    font-size: 0.8rem;
+  }
+}
+
+
+
+
+/* FOR DASHBOARD-COMPLETED COURSES */
+
+@media only screen and (max-width: 500px) {
+  .abc {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* FOR POPULAR COURSE IFRAME COURSES */
+
+@media only screen and (max-width: 768px) {
+  .ban2 iframe {
+    height: 350px;
+  }
+
+  .ban2 .col-md-6 {
+    margin-bottom: 5px;
+  }
+}
+
+
+/* FOR TOP BAR SIGIN/SIGNUP */
+
+@media only screen and (max-width: 767px) {
+  .container-top-bar .col-md-6:first-child {
+    display: none;
+  }
+
+  /*
+  .container-top-bar .col-md-6:last-child {
+    float: left;
+  } */
+}
+
+
+/* FOR POPULAR COURSE PAGE */
+
+@media only screen and (max-width: 769px) {
+  .video-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .video-container .ban2 {
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+}
+
+/* FOR VERIFICATION PAGE */
+
+@media only screen and (max-width: 769px) {
+  .verification-container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+/* FOR COMMENT-ABOUT-US PAGE */
+
+@media only screen and (max-width: 769px) {
+  .comment-container {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+
+
+/* FOR FOOTER-ABOUT-US PAGE */
+
+@media only screen and (max-width: 769px) {
+
+  .footer {
+    width: 100%;
+
+    margin: 0;
+
+  }
+
+  .footer .row .col-md-5 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    font-size: 0.85rem;
+  }
+
+  .footer .row .col-md-3 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    font-size: 0.85rem;
+  }
+
+  .footer-copyright {
+    font-size: 0.85rem;
+  }
+}
+
+
+/* FOR INDEX COURSE IMAGES PAGE */
+
+@media only screen and (max-width: 769px) {
+
+  .pics-container {
+    /* width: 98%;
+    margin-left: 1%;
+    margin-right: 1%; */
+    /* width: 100%; */
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+
+
+  .popular-courses .pics-container .col-md-3 {
+    margin-bottom: 12px;
+  }
+
+  /* FOR AVAILABLE COURSE IMAGES PAGE */
+  .courses {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  /* FOR AVAILABLE COURSE IMAGES PAGE */
+  .available-courses .row {
+    padding-bottom: 0 !important;
+  }
+
+  /* FOR VERIFICATION PAGE */
+  .verification-container .ban1 {
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+
+
+  /* FOR CONTACT US PAGE */
+
+  iframe {
+    height: 400px;
+  }
+
+  .king {
+    position: static !important;
+  }
+
+  .go .king {
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 50px;
+  }
+}
+
+/* FOR DASHBOARD-EDIT PAGE BUTTON  */
+
+@media only screen and (max-width: 769px) {
+  .dashboard-form .edit-profile input[type=submit] {
+    width: 50%;
+  }
+
+  .dashboard-form input[type=submit],
+  input[type=text],
+  input[type=button],
+  select {
+    /* padding: 5px; */
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+
+  .form input[type=email],
+  input[type=password] {
+    /* padding: 5px; */
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .home .abc {
+    margin-top: 0 !important;
+  }
+}
